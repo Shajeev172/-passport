@@ -1,0 +1,677 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, .logo {
+    font-family: "Playfair Display",sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}*/
+
+a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    text-decoration: none;
+}
+
+/*Header Sec CSS Code Start*/
+
+header{
+	position: absolute;
+	width: 100%;
+	padding: 20px 0px;
+
+}
+
+.navbar-brand {
+    font-size: 24px;
+    color: #fff !important;
+    font-weight: 700;
+    font-family: "Playfair Display",sans-serif;
+}
+
+.banner-btn button{
+	background: transparent;
+    padding: 6px 20px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-radius: 30px;
+}
+
+.site-navigation .d-flex a:hover{
+	color: #fff;
+	background: #fc8621;
+	border-color: #fc8621;
+	border-radius: 30px;
+}
+
+.nav-item a.active{
+	color: #fff !important;
+
+}
+.site-nav .nav-item .hover-nav:hover{
+	color: #fff !important;
+}
+
+.nav-link{
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+    padding: 10px 15px !important;
+    display: inline-block;
+    text-decoration: none !important;
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.dropdown-menu .dropdown-item:hover{
+	color: #fc8621;
+}
+
+
+
+/*Header Sec CSS Code End*/
+
+/*Banner Section Css Start*/
+
+#banner{
+	width: 100%;
+	height: 100vh;
+	background: url(../img/b1.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	background-color: rgba(0,0,0,.35);
+	background-blend-mode: soft-light;
+	
+}
+
+.banner-content{
+	height: 100vh;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#banner .banner-content h1.heading{
+	font-family: "Playfair Display", sans-serif;
+	font-size: 60px;
+	color: #fff;
+	font-weight: 700;
+} 
+
+#banner .play-button {
+    font-size: 20px;
+    color: #fff;
+}
+
+#banner .icon-button {
+    width: 55px;
+    height: 55px;
+    border-radius: 55%;
+    background: transparent;
+    position: relative;
+    display: inline-block;
+    border: 2px solid #fff;
+    position: relative;
+
+}
+
+.icon-button .icon-play i {
+    font-size: 46px;
+    padding-left: 3px;
+    padding-top: 3px;
+}
+
+.banner-content .icon-room a i{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    margin-right: 15px;
+    color: #fff;
+
+}
+
+.google-map span{
+	font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+
+}
+
+.google-map{
+	position: absolute;
+    margin-top: 75px;
+    margin-left: 35px;
+}
+	
+/*Banner Section Css End*/
+
+/*About Section Css Start*/
+
+#about {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.about-head span{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fc8621;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+}
+
+.about-head h2{
+    font-size: 46px;
+    color: #000;
+    font-weight: 800;
+    font-family: "Playfair Display", sans-serif;
+
+}
+
+.about-head p{
+	font-family: "Open Sans", sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	color: #212529;
+}
+
+.btn-primary:hover{
+    color: #fff;
+    background-color: #fc9842;
+    border-color: #fc9237;
+}
+
+.btn-primary{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 30px;
+	display: inline-block;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid transparent;
+	font-size: 1rem;
+	background-color: #fC8621;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-primary:focus {
+    box-shadow: none !important;
+    border: none;
+}
+
+.btn-primary:focus {
+    color: #fff;
+    background-color: #fc9842;
+    border-color: #fc9237; 
+}
+
+/*About Section Css End*/
+
+/*Feature section Css Start*/
+
+
+#about {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.about-head{
+	padding-bottom: 65px;
+}
+
+.s-item .price{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: inline-block;
+    padding: 30px;
+    font-size: 20px;
+    color: #fc8621 !important;
+    background: #fff !important;
+    -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.s-item .thumb{
+	position: relative;
+}
+
+.s-item h3 a{
+	font-weight: 700;
+	font-family: "Playfair Display", sans-serif;
+	font-size: 1.75rem;
+	line-height: 1.2;
+	color: #000;
+	transition: .3s all ease;
+    text-decoration: none;
+}
+
+.s-item .meta{
+	color: #999;
+	font-size: 14px;
+	font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.owl-theme .item{
+	margin-right: 15px;
+}
+
+.owl-nav{
+	position: absolute;
+	top: -150;
+	right: 0;
+	color: #d6d6d6
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #fc8621;
+}
+.owl-dots{
+	padding-top: 45px;
+}
+
+.owl-theme .owl-nav {
+    margin-top: 0px;
+    font-size: 85px;
+    margin-right: 6px;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+    background: transparent;
+    color: #fc8621;
+    text-decoration: none;
+}
+/*Feature Section Css End*/
+
+/*Review Section css Start*/
+
+.faq{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+
+.faq .subheading {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fc8621;
+    font-family: "Open Sans", sans-serif;
+}
+
+.faq .heading {
+    font-size: 46px;
+    color: #000;
+    font-weight: 700;
+    font-family: "Playfair Display", sans-serif;
+}
+
+.feedback .author img{
+    width: 80px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+.feedback .author h3 {
+    font-size: 18px;
+    color: #fc8621;
+    margin-bottom: 0;
+    font-family: "Playfair Display", sans-serif;
+}
+.feedback .author p{
+	color: #000;
+    line-height: 2;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #000;
+    line-height: 2;
+    font-size: 14px;
+
+}
+
+.quote {
+    font-size: 5em;
+    line-height: 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+.feedback {
+    margin: 0 0 1rem;
+}
+
+.two .owl-dots{
+	text-align: left;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+.accordion-button::after {
+	flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url(../img/plus.svg);
+    color: #000 !important;
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+    position: absolute;
+    left: 15px;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../img/minus.png);
+    transform: rotate(-180deg);
+    color: #000 !important;
+    position: absolute;
+    left: 16px;
+
+}
+
+.accordion .accordion-item .accordion-button {
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    text-decoration: none;
+    text-align: left;
+    color: #000;
+    background: transparent;
+    border: none;
+    padding-left: 50px;
+    border-radius: 0;
+    position: relative;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: #fff;
+    box-shadow: none !important; /*inset 0 -1px 0 rgb(0 0 0 / 13%)*/; 
+    border: none !important;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none !important; /*0 0 0 0.25rem rgb(13 110 253 / 25%);*/
+    border: none !important;
+}
+.accordion-item{
+	border: none;
+	backgroung: #f8f9fa;
+
+}
+
+.accordion-button {
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    text-decoration: none;
+    text-align: left;
+    color: #000;
+    background: transparent;
+    border: none;
+    padding-left: 50px;
+    border-radius: 0;
+    position: relative;
+    font-weight: 400;
+    font-family: "Playfair Display",sans-serif;
+}
+
+.accordion-body{
+	font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #212529;
+    line-height: 1.5;
+}
+
+.accordion .accordion-item .accordion-button[aria-expanded="true"] {
+    font-weight: 700;
+    color: #fff!important;
+    background: #fc8621;
+}
+
+
+/*Review section css End*/
+
+/* BLog section css start */
+
+.media-entry .m-body {
+    padding: 20px 20px 50px 20px;
+}
+
+.media-entry span {
+    font-size: 12px;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    color: #212529;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.media-entry h3 a{
+	color: #000;
+	transition: .3s all ease;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Playfair Display",sans-serif;
+}
+
+.media-entry h3 a:hover{
+	color: #fc8621;
+	transition: .3s all ease;
+}
+
+.media-entry p {
+    font-size: 14px;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    color: #212529;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+
+.media-entry .more span:hover .more .label {
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.media-entry .more .label{
+	color: #fc8621;
+	font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.media-entry .more span:hover{
+    color: #ca6b1a;;
+	transition: .3s all ease;
+}
+
+/* BLog section css end */
+
+/*adventure section css start*/
+
+.bg-primary {
+    background-color: #fc8621!important;
+}
+.py-5 {
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+}
+.col-lg-7{
+	padding-top: 3px;
+
+}
+
+.text-white {
+    color: #fff!important;
+    font-family: "Playfair Display",sans-serif;
+    
+}
+
+.text-white h3{
+	font-family: "Playfair Display",sans-serif;
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.btn.btn-outline-white {
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    transition: color .15s ease-in-out , background-color .15s ease-in-out , border-color .15s ease-in-out , box-shadow .15s ease-in-out , -webkit-box-shadow .15s ease-in-out;
+
+}
+
+.btn.btn-outline-white:hover {
+    background-color: #fff;
+    color: #fc8621;
+}
+
+.btn.btn-outline-white {
+    border-color: #fff;
+}
+
+/*adventure section css end*/
+
+.site-footer{
+    background: #efefef;
+    font-size: 15px;
+    color: #888;
+    padding: 70px 0;
+    line-height: 1.5;
+}
+
+.site-footer .widget {
+    margin-bottom: 40px;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+.site-footer .widget h3{
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-family: "Playfair Display",sans-serif;
+
+}
+
+.text-primary {
+    color: #fc8621!important;
+}
+
+.widget p{
+
+    margin-top: 0;
+    margin-bottom: 1rem;
+
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.site-footer .social li {
+    display: inline-block;
+}
+
+.site-footer .social li a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    background: #777;
+    border-radius: 50%;
+    color: #fff;
+    transition: .3s all ease;
+    text-decoration: none;
+}
+
+.site-footer .social li a i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    transition: .3s all ease;
+}
+
+.site-footer .social li a:hover {
+    background: #fda153;
+    color: #fff;
+    transform: scale(1.1);
+    transition: .3s all ease;
+}
+
+.site-footer .widget .links li a {
+    color: #777;
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    font-size: 14px;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.site-footer .widget .links {
+    width: 150px;
+}
+
+
+.site-footer .widget .links li {
+    margin-bottom: 10px;
+}
+
+.text-center p a{
+	color: #fc8621;
+}
