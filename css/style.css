@@ -288,9 +288,15 @@ header{
 }
 
 .owl-theme .owl-nav {
-    margin-top: 32px;
+    margin-top: 0px;
     font-size: 85px;
     margin-right: 6px;
+}
+
+.owl-theme-pos .owl-nav {
+    margin-top: 32px;
+    font-size: 85px;
+    margin-right: 10px;
 }
 
 .owl-theme .owl-nav [class*="owl-"]:hover {
